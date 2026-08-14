@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EPL MMC - Environment Premier League</title>
+  <meta name="description" content="Environment Protection League (EPL MMC) - Documenting weekly environmental conservation activities, clean-up drives, tree planting, and sustainability projects." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans for headings & Inter for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/css/style.css" />
+<script src="/_aistudio-iframe.js?v=2f1c016a"></script></head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & STICKY NAVIGATION BAR
+       ========================================================================== -->
+  <header class="header" id="home">
+    <div class="container nav-container">
+      <!-- Left Side: Circular Logo Placeholder & Brand Title -->
+      <a href="#home" class="brand-logo" aria-label="EPL MMC Home">
+        <img src="/images/logo.png" alt="EPL MMC Logo" class="logo-img" />
+        <div>
+          <span class="brand-text">EPL MMC</span>
+          <span class="brand-subtext">Environment Protection League</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Toggle Button -->
+      <button class="mobile-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Right Side: Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#activities" class="nav-link">Activities</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero">
+      <!-- Subtle Decorative Nature Elements -->
+      <div class="hero-bg-shapes">
+        <svg class="bg-leaf bg-leaf-1" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M50 0 C70 30, 90 60, 50 100 C10 60, 30 30, 50 0 Z" />
+        </svg>
+        <svg class="bg-leaf bg-leaf-2" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M50 0 C80 20, 100 50, 50 100 C0 50, 20 20, 50 0 Z" />
+        </svg>
+      </div>
+
+      <div class="container hero-content reveal">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Environment Premier League (EPL MMC)
+        </div>
+        
+        <h1 class="hero-title">Protect Nature, Protect Our Future</h1>
+        
+        <p class="hero-description">
+          We are dedicated to preserving our local ecosystems through community action, weekly environmental drives, sustainable advocacy, and hands-on conservation. Join us in shaping a greener, cleaner tomorrow.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#activities" class="btn btn-primary">
+            View Weekly Activities
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+          </a>
+          <a href="#about" class="btn btn-secondary">Learn Our Mission</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WEEKLY ACTIVITY NAVIGATION GRID
+         ========================================================================== -->
+    <section class="activity-nav-section" id="activities">
+      <div class="container">
+        <div class="activity-nav-grid reveal">
+          
+          <!-- Card 1: Week 1 -->
+          <a href="#week1" class="activity-nav-card" data-scroll-to="#week1">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path></svg>
+            </div>
+            <span class="card-week-tag">Week 1</span>
+            <h3 class="card-title">Clean-up Campaign</h3>
+          </a>
+
+          <!-- Card 2: Week 2 -->
+          <a href="#week2" class="activity-nav-card" data-scroll-to="#week2">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <span class="card-week-tag">Week 2</span>
+            <h3 class="card-title">Tree Planting</h3>
+          </a>
+
+          <!-- Card 3: Week 3 -->
+          <a href="#week3" class="activity-nav-card" data-scroll-to="#week3">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path></svg>
+            </div>
+            <span class="card-week-tag">Week 3</span>
+            <h3 class="card-title">Plastic Recycling</h3>
+          </a>
+
+          <!-- Card 4: Week 4 -->
+          <a href="#week4" class="activity-nav-card" data-scroll-to="#week4">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line></svg>
+            </div>
+            <span class="card-week-tag">Week 4</span>
+            <h3 class="card-title">Energy Workshop</h3>
+          </a>
+
+          <!-- Card 5: Team -->
+          <a href="#team" class="activity-nav-card" data-scroll-to="#team">
+            <div class="card-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <span class="card-week-tag">EPL Team</span>
+            <h3 class="card-title">Meet Our Team</h3>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WEEKLY SECTIONS (ARTICLE LAYOUTS)
+         ========================================================================== -->
+    
+    <!-- WEEK 1 SECTION -->
+    <section class="section section-bg-beige" id="week1">
+      <div class="container">
+        <article class="article-card reveal">
+          <div class="article-meta">
+            <span class="article-week-badge">Week 1 Activity Report</span>
+            <div class="article-date">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>August 5, 2026</span>
+            </div>
+          </div>
+
+          <h2 class="article-heading">Community Clean-up Campaign</h2>
+
+          <!-- Responsive Image Gallery -->
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="/images/week1/photo1.jpg" alt="Volunteers collecting trash in park" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week1/photo2.jpg" alt="Sorting recyclable materials" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week1/photo3.jpg" alt="Clean riverbank area after drive" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week1/photo4.jpg" alt="Community volunteers team photo" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+          </div>
+
+          <!-- Description Paragraphs -->
+          <div class="article-content">
+            <p class="article-lead">
+              The Environment Protection League (EPL MMC) officially kicked off its monthly environmental initiative with an inspiring Community Clean-up Campaign at Green River Park. Over 80 passionate volunteers gathered early Saturday morning to restore our public recreational spaces.
+            </p>
+            <p>
+              Our team organized systematically into four specialized squads covering park trails, riverbanks, children’s play zones, and perimeter walkways. Equipped with biodegradable bags, protective gloves, and safety grabbers, volunteers collected over 350 kilograms of solid waste, including single-use plastic bottles, aluminum cans, food packaging, and non-biodegradable debris.
+            </p>
+            <p>
+              All gathered materials were brought to our mobile sorting station where 65% of the waste was successfully separated and dispatched to local municipal recycling facilities. Local park authorities praised EPL MMC for mobilizing youth and family participation in maintaining pristine natural habitats.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WEEK 2 SECTION -->
+    <section class="section section-bg-light" id="week2">
+      <div class="container">
+        <article class="article-card reveal">
+          <div class="article-meta">
+            <span class="article-week-badge">Week 2 Activity Report</span>
+            <div class="article-date">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>August 12, 2026</span>
+            </div>
+          </div>
+
+          <h2 class="article-heading">Tree Planting & Reforestation Drive</h2>
+
+          <!-- Responsive Image Gallery -->
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="/images/week2/photo1.jpg" alt="Volunteers planting young saplings" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week2/photo2.jpg" alt="Native oak and pine saplings" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week2/photo3.jpg" alt="Soil preparation and watering" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week2/photo4.jpg" alt="Green forest canopy overview" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+          </div>
+
+          <!-- Description Paragraphs -->
+          <div class="article-content">
+            <p class="article-lead">
+              For Week 2, EPL MMC organized a major Reforestation Drive at the North Ridge Ecological Reserve. In partnership with local forestry experts, we planted 250 native saplings to restore degraded hillside slopes and fight soil erosion.
+            </p>
+            <p>
+              Volunteers planted native species including Oak, Pine, Maple, and flowering dogwood trees specially chosen for their climate resilience and ability to nurture indigenous bird species. Each tree was tagged with a digital tracking label so EPL MMC youth monitors can record growth and soil moisture levels over the coming seasons.
+            </p>
+            <p>
+              Special workshops were conducted alongside the planting session to educate participants on proper soil enrichment techniques, organic composting, and root watering strategies. This ongoing effort serves as a vital step towards increasing our regional urban forest canopy.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WEEK 3 SECTION -->
+    <section class="section section-bg-beige" id="week3">
+      <div class="container">
+        <article class="article-card reveal">
+          <div class="article-meta">
+            <span class="article-week-badge">Week 3 Activity Report</span>
+            <div class="article-date">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>August 19, 2026</span>
+            </div>
+          </div>
+
+          <h2 class="article-heading">Plastic Pollution Awareness & Recycling Drive</h2>
+
+          <!-- Responsive Image Gallery -->
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="/images/week3/photo1.jpg" alt="Eco recycling booth and sorting" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week3/photo2.jpg" alt="Plastic sorting education booth" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week3/photo3.jpg" alt="Reusable bags distribution" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week3/photo4.jpg" alt="Community members signing pledge" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+          </div>
+
+          <!-- Description Paragraphs -->
+          <div class="article-content">
+            <p class="article-lead">
+              Week 3 focused on combating plastic pollution through education, active collection, and circular economic solutions. EPL MMC set up an interactive pop-up recycling hub in the central city square.
+            </p>
+            <p>
+              Over 200 households participated by bringing clean plastic bottles, containers, and electronics for recycling. In exchange, EPL MMC distributed reusable cotton shopping bags, glass water bottles, and home composting starter kits.
+            </p>
+            <p>
+              Our educators conducted interactive demonstrations highlighting the life cycle of single-use plastics and practical ways to transition to zero-waste households. More than 150 citizens signed our 'Zero Single-Use Plastic' pledge to reduce personal waste footprints.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- WEEK 4 SECTION -->
+    <section class="section section-bg-light" id="week4">
+      <div class="container">
+        <article class="article-card reveal">
+          <div class="article-meta">
+            <span class="article-week-badge">Week 4 Activity Report</span>
+            <div class="article-date">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>August 26, 2026</span>
+            </div>
+          </div>
+
+          <h2 class="article-heading">Renewable Energy & Water Conservation Workshop</h2>
+
+          <!-- Responsive Image Gallery -->
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="/images/week4/photo1.jpg" alt="Solar energy and water workshop" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week4/photo2.jpg" alt="Demonstration of solar panel kits" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week4/photo3.jpg" alt="Rainwater harvesting system model" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/week4/photo4.jpg" alt="Group workshop discussion" class="gallery-img" loading="lazy" />
+              <div class="gallery-overlay"><span>🔍 View</span></div>
+            </div>
+          </div>
+
+          <!-- Description Paragraphs -->
+          <div class="article-content">
+            <p class="article-lead">
+              To cap off our monthly series, EPL MMC hosted a community workshop on Renewable Energy Systems and Urban Water Conservation at the Green City Innovation Hall.
+            </p>
+            <p>
+              Energy engineers demonstrated accessible rooftop solar micro-installations, solar water heaters, and energy-efficient LED upgrades. Participants learned how household solar adoption significantly lowers carbon emissions while decreasing utility costs.
+            </p>
+            <p>
+              The water conservation segment showcased low-cost rainwater harvesting systems, greywater recycling filters, and drip irrigation techniques for urban gardens. Over 60 community leaders committed to installing rain barrels in their gardens prior to the upcoming autumn rain season.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT SECTION
+         ========================================================================== -->
+    <section class="section section-bg-beige" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Our Mission</span>
+          <h2 class="section-title">About Environment Protection League</h2>
+          <p class="section-description">
+            EPL MMC is a grassroots environmental organization dedicated to promoting ecological awareness, organizing direct action campaigns, and protecting nature for future generations.
+          </p>
+        </div>
+
+        <div class="about-grid reveal">
+          <div class="about-text">
+            <h3>Empowering Communities for Environmental Stewardship</h3>
+            <p>
+              Founded with a passion for environmental justice and habitat preservation, the Environment Protection League brings together students, professionals, scientists, and local citizens to build sustainable ecosystems.
+            </p>
+            <p>
+              We believe that true environmental protection starts with consistent, local action. From weekly cleanup drives to policy advocacy, our team works tirelessly to create measurable impact in our environment.
+            </p>
+
+            <div class="pillars-list">
+              <div class="pillar-card">
+                <h4>🌱 Conservation</h4>
+                <p>Restoring native habitats, planting trees, and protecting biodiversity.</p>
+              </div>
+              <div class="pillar-card">
+                <h4>♻️ Zero Waste</h4>
+                <p>Promoting circular economy solutions and plastic reduction.</p>
+              </div>
+              <div class="pillar-card">
+                <h4>☀️ Clean Energy</h4>
+                <p>Advocating solar, wind, and energy efficiency solutions.</p>
+              </div>
+              <div class="pillar-card">
+                <h4>📚 Education</h4>
+                <p>Educating youth and communities in eco-friendly living.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Impact Stats Box -->
+          <div class="stats-container">
+            <div class="stat-box">
+              <div class="stat-number">1,200+</div>
+              <div class="stat-label">Active Volunteers</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">500+</div>
+              <div class="stat-label">Trees Planted</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">1,400 kg</div>
+              <div class="stat-label">Waste Recycled</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">48</div>
+              <div class="stat-label">Weekly Campaigns</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TEAM SECTION
+         ========================================================================== -->
+    <section class="section section-bg-light" id="team">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Leadership & Volunteers</span>
+          <h2 class="section-title">Meet Our Team</h2>
+          <p class="section-description">
+            The dedicated environmental leaders and coordinators driving EPL MMC’s weekly activities and community outreach.
+          </p>
+        </div>
+
+        <div class="team-grid reveal">
+          <!-- Team Member 1 -->
+          <div class="team-card">
+            <div class="team-img-wrapper">
+              <img src="/images/team/member1.jpg" alt="Sophia Martinez" class="team-img" loading="lazy" />
+            </div>
+            <h3 class="team-name">Sophia Martinez</h3>
+            <span class="team-role">Executive Director</span>
+            <p class="team-bio">
+              Environmental scientist with over 8 years of experience leading habitat restoration and municipal policy initiatives.
+            </p>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card">
+            <div class="team-img-wrapper">
+              <img src="/images/team/member2.jpg" alt="David Chen" class="team-img" loading="lazy" />
+            </div>
+            <h3 class="team-name">David Chen</h3>
+            <span class="team-role">Field Operations Lead</span>
+            <p class="team-bio">
+              Coordinates logistics for weekly cleanup campaigns, tree planting drives, and volunteer safety operations.
+            </p>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card">
+            <div class="team-img-wrapper">
+              <img src="/images/team/member3.jpg" alt="Elena Rostova" class="team-img" loading="lazy" />
+            </div>
+            <h3 class="team-name">Elena Rostova</h3>
+            <span class="team-role">Outreach Coordinator</span>
+            <p class="team-bio">
+              Specializes in youth empowerment programs, school environmental clubs, and community workshop facilitation.
+            </p>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="team-card">
+            <div class="team-img-wrapper">
+              <img src="/images/team/member4.jpg" alt="Marcus Vance" class="team-img" loading="lazy" />
+            </div>
+            <h3 class="team-name">Marcus Vance</h3>
+            <span class="team-role">Sustainability Specialist</span>
+            <p class="team-bio">
+              Researches renewable energy integration, water harvesting systems, and urban biodiversity preservation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTACT SECTION
+         ========================================================================== -->
+    <section class="section section-bg-beige" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Contact EPL MMC</h2>
+          <p class="section-description">
+            Have questions, want to join our weekly activities, or propose a community partnership? Reach out to us today.
+          </p>
+        </div>
+
+        <div class="contact-grid reveal">
+          <!-- Left: Contact Details Card -->
+          <div class="contact-info-card">
+            <h3>Let's Protect Nature Together</h3>
+            <p>
+              We welcome new volunteers, corporate sponsors, educational institutions, and environmental enthusiasts.
+            </p>
+
+            <div class="contact-details-list">
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div>
+                  <h5>Email Us</h5>
+                  <span>contact@epl-mmc.org</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div>
+                  <h5>Call Us</h5>
+                  <span>+1 (555) 375-6621</span>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <h5>Our Headquarters</h5>
+                  <span>Nature Conservation Hub, 104 Green Avenue, Eco City</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-card">
+            <div id="form-alert" class="form-alert"></div>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Your Name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="your.email@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-control" placeholder="e.g. Volunteer Inquiry / Partnership" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-control" placeholder="Tell us how you would like to get involved..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Send Message
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>EPL MMC</h4>
+          <p>
+            Environment Protection League — Dedicated to preserving biodiversity, organizing weekly environmental campaigns, and fostering sustainable community living.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+            <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+            <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+            <a href="mailto:contact@epl-mmc.org" class="social-icon" aria-label="Email">✉️</a>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="footer-heading">Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#activities" class="footer-link">Weekly Activities</a></li>
+            <li><a href="#about" class="footer-link">About Us</a></li>
+            <li><a href="#team" class="footer-link">Our Team</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-heading">Weekly Reports</h5>
+          <ul class="footer-links">
+            <li><a href="#week1" class="footer-link">Week 1: Clean-up</a></li>
+            <li><a href="#week2" class="footer-link">Week 2: Tree Planting</a></li>
+            <li><a href="#week3" class="footer-link">Week 3: Recycling</a></li>
+            <li><a href="#week4" class="footer-link">Week 4: Solar Workshop</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="footer-heading">Contact Details</h5>
+          <ul class="footer-links" style="gap: 0.85rem;">
+            <li class="footer-link">📍 Green Conservation Hub</li>
+            <li class="footer-link">📧 contact@epl-mmc.org</li>
+            <li class="footer-link">📞 +1 (555) 375-6621</li>
+            <li class="footer-link">🌐 www.epl-mmc.org</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Environment Protection League (EPL MMC). All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       IMAGE LIGHTBOX MODAL
+       ========================================================================== -->
+  <div id="image-modal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <img id="modal-img" src="" alt="Expanded Preview" class="modal-img" />
+    </div>
+  </div>
+
+  <!-- Master Vanilla JavaScript -->
+  <script src="/js/script.js" defer></script>
+</body>
+</html>
